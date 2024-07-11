@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.header {
+    background-color: #111010;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin: 4em 0;
+}
+
+.left, .right, .updates, .footer, .ai-image-generator {
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.left img, .right img, .updates img, .ai-image-generator img {
+    border-radius: 8px;
+}
+
+.ai-image-generator input, .ai-image-generator button {
+    margin: 1em 0;
+    
+}
+
+.ai-image-generator button {
+    background-color: #38b2ac;
+    color: #000000;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

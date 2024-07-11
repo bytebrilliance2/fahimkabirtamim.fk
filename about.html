@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #222;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            width: 100px; /* Adjust image size */
+            height: 100px; /* Adjust image size */
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .team-member h3 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: #ccc;
+            margin: 0;
+        }
+        .button {
+            background-color: #fff;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            .team-member {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Our Team</h1>
+        <div class="team-member">
+            <img src="image/IMG_8530.JPG" alt="Your Photo">
+            <div>
+                <h3>Fahim Kabir Tamim</h3>
+                <p>Founder & CEO</p>
+            </div>
+        </div>
+        <!-- Repeat the following block for each team member -->
+        <div class="team-member">
+            <img src="image/imran.png" alt="Team Member 1 Photo">
+            <div>
+                <h3>Imran Ahamed</h3>
+                <p>Chairmen</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="image/sami.png" alt="Team Member 1 Photo">
+            <div>
+                <h3>Sadman Jahan Sami </h3>
+                <p>Menager</p>
+            </div>
+        </div>
+        <!-- Add similar blocks for other team members -->
+        <button class="button">Contact Us</button>
+    </div>
+</body>
+</html>
